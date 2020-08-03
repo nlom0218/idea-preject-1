@@ -1,0 +1,85 @@
+@media screen and (max-width: 800px) {
+  .index-content {
+    width: 350px;
+    margin: 30px 0px;
+  }
+  .index-content_head_title {
+    width: 300px;
+    height: 60px;
+  }
+  .index-content_head_title_name {
+    font-size: 20px;
+    margin: 0px 10px;
+  }
+
+  .index-content_head_title i {
+    font-size: 20px;
+  }
+  .index-content_head_title_you {
+    font-size: 20px;
+    font-weight: 700;
+    top: -10px;
+  }
+  .index-content_head_sub {
+    font-size: 18px;
+  }
+
+  .index-content_head_icon {
+    font-size: 18px;
+  }
+
+  .index-content_head_img .bookcover {
+    margin: 20px 0px;
+    height: 300px;
+  }
+  .footer-left {
+    width: 350px;
+    display: flex;
+  }
+  .footer_title_list,
+  .footer_content_list {
+    font-size: 12px;
+  }
+  .main_title {
+    font-size: 40px;
+  }
+
+  .main_sub-title {
+    font-size: 15px;
+  }
+  .nav-bar {
+    margin-top: 40px;
+    width: 300px;
+  }
+  .nav-bar .list {
+    font-size: 15px;
+  }
+  .nav-bar1 {
+    margin-top: 40px;
+    width: 300px;
+  }
+  .nav-bar1 .list {
+    font-size: 15px;
+  }
+  .nav-bar2 {
+    margin-top: 40px;
+    width: 300px;
+  }
+  .nav-bar2 .list {
+    font-size: 15px;
+  }
+  .nav-bar3 {
+    margin-top: 40px;
+    width: 300px;
+  }
+  .nav-bar3 .list {
+    font-size: 15px;
+  }
+  .nav-bar4 {
+    margin-top: 40px;
+    width: 300px;
+  }
+  .nav-bar4 .list {
+    font-size: 15px;
+  }
+}
