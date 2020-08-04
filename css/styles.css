@@ -4,7 +4,7 @@
 @import "nav-bar.css";
 @import "index-content.css";
 @import "footer.css";
-@import "mobile.css";
+/*@import "mobile.css";*/
 @import "intro.css";
 * {
   box-sizing: border-box;
