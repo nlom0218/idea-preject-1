@@ -11,7 +11,7 @@
   }
 
   .content-frame {
-    width: 350px;
+    width: 450px;
     margin: 20px 0px;
   }
   .index_head_title {
@@ -81,7 +81,44 @@
   }
 
   .intro_author_content span {
-    font-size: 14px;
+    font-size: 15px;
+  }
+
+  .about-book .about-book_title,
+  .intro_review .about-review_title {
+    font-size: 20px;
+  }
+
+  .about-book_partone,
+  .about-book_parttwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partone_content_up .partone_content_up_1,
+  .partone_content_up .partone_content_up_2,
+  .parttwo_content_up .parttwo_content_up_1,
+  .parttwo_content_up .parttwo_content_up_2 {
+    font-size: 17px;
+  }
+
+  .partone_content .partone_content_down,
+  .partone_content .partone_content_down,
+  .parttwo_content .parttwo_content_down,
+  .parttwo_content .parttwo_content_down {
+    font-size: 15px;
+  }
+
+  .about-book_partone .partone_content_icon,
+  .about-book_parttwo .parttwo_content_icon {
+    display: none;
+  }
+  .intro_review_column .intro_review_info {
+    font-size: 16px;
+  }
+
+  .intro_review_column .intro_review_content {
+    font-size: 15px;
   }
 }
 
@@ -96,5 +133,10 @@
 
   .intro_author_content span {
     font-size: 16px;
+  }
+
+  .about-book_partone .partone_content,
+  .about-book_parttwo .parttwo_content {
+    width: 500px;
   }
 }
