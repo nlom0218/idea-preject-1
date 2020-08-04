@@ -1,17 +1,10 @@
 @media screen and (max-width: 800px) {
-  body,
-  nav,
-  header,
-  footer {
-    width: 100%;
-  }
-
   .main {
     margin-top: 60px;
   }
 
   .content-frame {
-    width: 400px;
+    width: 350px;
     margin: 20px 0px;
   }
   .index_head_title {
