@@ -6,6 +6,7 @@
 @import "footer.css";
 @import "mobile.css";
 @import "intro.css";
+@import "button.css";
 * {
   box-sizing: border-box;
 }

@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body id="body">
     <header class="main">
       <a href="index.html"><h1 class="main_title">백만장자의 시크릿</h1> </a>
       <h2 class="main_sub-title">
@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <footer>
+    <footer id="footer">
       <div class="footer">
         <div class="footer-left">
           <div class="footer_title">
@@ -78,5 +78,21 @@
         </div>
       </div>
     </footer>
+    <div class="button">
+      <input
+        type="button"
+        value="N"
+        onclick="nightDayHandler(this)"
+        class="change-button"
+      />
+      <a href="#body"
+        ><div class="up-button"><i class="fas fa-angle-up"></i></div
+      ></a>
+      <a href="#footer"
+        ><div class="down-button">
+          <i class="fas fa-angle-down"></i></div
+      ></a>
+    </div>
+    <script src="change-button.js"></script>
   </body>
 </html>
