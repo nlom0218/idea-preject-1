@@ -1,38 +1,38 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   .main {
     margin-top: 60px;
   }
 
-  .index-content {
+  .content-frame {
     width: 350px;
-    margin: 30px 0px;
+    margin: 20px 0px;
   }
-  .index-content_head_title {
+  .index_head_title {
     width: 300px;
     height: 60px;
   }
-  .index-content_head_title_name {
+  .index_head_title_name {
     font-size: 20px;
     margin: 0px 10px;
   }
 
-  .index-content_head_title i {
+  .index_head_title i {
     font-size: 20px;
   }
-  .index-content_head_title_you {
+  .index_head_title_you {
     font-size: 20px;
     font-weight: 700;
     top: -10px;
   }
-  .index-content_head_sub {
+  .index_head_sub {
     font-size: 18px;
   }
 
-  .index-content_head_icon {
+  .index_head_icon {
     font-size: 18px;
   }
 
-  .index-content_head_img .bookcover {
+  .index_head_img .bookcover {
     margin: 20px 0px;
     height: 300px;
   }
@@ -49,41 +49,45 @@
   }
 
   .main_sub-title {
-    font-size: 15px;
+    font-size: 13px;
   }
-  .nav-bar {
-    margin-top: 40px;
-    width: 300px;
-  }
-  .nav-bar .list {
-    font-size: 15px;
-  }
-  .nav-bar1 {
-    margin-top: 40px;
-    width: 300px;
-  }
-  .nav-bar1 .list {
-    font-size: 15px;
-  }
-  .nav-bar2 {
-    margin-top: 40px;
-    width: 300px;
-  }
-  .nav-bar2 .list {
-    font-size: 15px;
-  }
+  .nav-bar,
+  .nav-bar1,
+  .nav-bar2,
   .nav-bar3 {
-    margin-top: 40px;
+    margin-top: 30px;
     width: 300px;
   }
+  .nav-bar .list,
+  .nav-bar1 .list,
+  .nav-bar2 .list,
   .nav-bar3 .list {
     font-size: 15px;
   }
-  .nav-bar4 {
-    margin-top: 40px;
-    width: 300px;
+
+  .intro_author_img {
+    display: none;
   }
-  .nav-bar4 .list {
-    font-size: 15px;
+
+  .intro_author_content h3 {
+    font-size: 20px;
+  }
+
+  .intro_author_content span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .intro_author .author_avator {
+    margin-right: 20px;
+  }
+
+  .intro_author_content h3 {
+    font-size: 24px;
+  }
+
+  .intro_author_content span {
+    font-size: 16px;
   }
 }

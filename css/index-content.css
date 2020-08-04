@@ -1,4 +1,4 @@
-.index-content {
+.content-frame {
   background-color: #f4f5f7;
   margin: 50px 0px;
   width: 800px;
@@ -12,13 +12,13 @@
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.index-content_head {
+.index_head {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.index-content_head_title {
+.index_head_title {
   width: 600px;
   height: 100px;
   display: flex;
@@ -31,13 +31,13 @@
   position: relative;
 }
 
-.index-content_head_title_name {
+.index_head_title_name {
   font-size: 40px;
   font-weight: 700;
   margin: 0px 30px;
 }
 
-.index-content_head_title i {
+.index_head_title i {
   font-size: 30px;
   color: rgb(255, 255, 0);
 
@@ -53,15 +53,15 @@
   }
 }
 
-.index-content_head_title_you {
+.index_head_title_you {
   position: absolute;
   font-size: 40px;
   font-weight: 700;
   top: -30px;
-  color: red;
+  color: rgb(190, 8, 8);
 }
 
-.index-content_head_sub {
+.index_head_sub {
   font-size: 30px;
   font-weight: 600;
   color: #b38426;
@@ -70,7 +70,7 @@
   margin: 20px 0px;
 }
 
-.index-content_head_icon {
+.index_head_icon {
   font-size: 30px;
   animation: 1.5s iconUpAndDown infinite linear;
   color: #b38426;
@@ -88,7 +88,7 @@
   }
 }
 
-.index-content_head_img .bookcover {
+.index_head_img .bookcover {
   margin: 20px 0px;
   height: 500px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
