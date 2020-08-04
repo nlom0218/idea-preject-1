@@ -4,11 +4,11 @@
   }
 
   .content-frame {
-    width: 80%;
+    width: 400px;
     margin: 20px 0px;
   }
   .index_head_title {
-    width: 80%;
+    width: 300px;
     height: 60px;
   }
   .index_head_title_name {
@@ -64,7 +64,7 @@
   .nav-bar2,
   .nav-bar3 {
     margin-top: 30px;
-    width: 70%;
+    width: 400px;
   }
   .nav-bar .list,
   .nav-bar1 .list,
@@ -116,5 +116,9 @@
 
   .intro_review_column .intro_review_content {
     font-size: 15px;
+  }
+  .about-book_partone .partone_content_icon,
+  .about-book_parttwo .parttwo_content_icon {
+    display: none;
   }
 }
