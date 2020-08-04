@@ -9,9 +9,16 @@ footer {
   padding: 50px 0px 70px 0px;
 }
 
-.footer-left {
+.footer-box {
   width: 800px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .footer_title {
@@ -29,4 +36,12 @@ footer {
 
 .footer_content_list:nth-child(3):hover {
   text-decoration: underline;
+}
+
+.footer_right {
+  font-size: 50px;
+}
+
+.footer_right i:nth-child(1) {
+  margin-right: 20px;
 }

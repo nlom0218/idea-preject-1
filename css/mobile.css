@@ -1,14 +1,14 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   .main {
     margin-top: 60px;
   }
 
   .content-frame {
-    width: 350px;
+    width: 80%;
     margin: 20px 0px;
   }
   .index_head_title {
-    width: 300px;
+    width: 80%;
     height: 60px;
   }
   .index_head_title_name {
@@ -36,10 +36,18 @@
     margin: 20px 0px;
     height: 300px;
   }
-  .footer-left {
-    width: 350px;
-    display: flex;
+
+  .footer-box {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
   }
+
+  .footer_right {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
   .footer_title_list,
   .footer_content_list {
     font-size: 12px;
@@ -56,7 +64,7 @@
   .nav-bar2,
   .nav-bar3 {
     margin-top: 30px;
-    width: 300px;
+    width: 70%;
   }
   .nav-bar .list,
   .nav-bar1 .list,
@@ -85,7 +93,6 @@
   .about-book_partone,
   .about-book_parttwo {
     display: flex;
-    flex-direction: column;
   }
 
   .partone_content_up .partone_content_up_1,
@@ -102,10 +109,6 @@
     font-size: 15px;
   }
 
-  .about-book_partone .partone_content_icon,
-  .about-book_parttwo .parttwo_content_icon {
-    display: none;
-  }
   .intro_review_column .intro_review_info {
     font-size: 15px;
     margin-right: 10px;
@@ -113,24 +116,5 @@
 
   .intro_review_column .intro_review_content {
     font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .intro_author .author_avator {
-    margin-right: 20px;
-  }
-
-  .intro_author_content h3 {
-    font-size: 24px;
-  }
-
-  .intro_author_content span {
-    font-size: 16px;
-  }
-
-  .about-book_partone .partone_content,
-  .about-book_parttwo .parttwo_content {
-    width: 500px;
   }
 }
