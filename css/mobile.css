@@ -4,7 +4,7 @@
   }
 
   .content-frame {
-    width: 400px;
+    width: 360px;
     margin: 20px 0px;
   }
   .index_head_title {
@@ -64,7 +64,7 @@
   .nav-bar2,
   .nav-bar3 {
     margin-top: 30px;
-    width: 400px;
+    width: 360px;
   }
   .nav-bar .list,
   .nav-bar1 .list,
@@ -92,7 +92,6 @@
 
   .about-book_partone,
   .about-book_parttwo {
-    display: flex;
   }
 
   .partone_content_up .partone_content_up_1,
