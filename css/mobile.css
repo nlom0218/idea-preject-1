@@ -114,7 +114,8 @@
     display: none;
   }
   .intro_review_column .intro_review_info {
-    font-size: 16px;
+    font-size: 15px;
+    margin-right: 10px;
   }
 
   .intro_review_column .intro_review_content {
