@@ -77,7 +77,7 @@
     display: none;
   }
 
-  .intro_author_content h3 {
+  .intro_author_content .author_name {
     font-size: 20px;
   }
 
@@ -128,5 +128,52 @@
   }
   .content-frame .rule_content {
     margin: 0px 20px;
+  }
+
+  .first-column .first_head,
+  .second-column .second_head,
+  .third-column .third_head {
+    margin-left: 0px;
+    font-size: 18px;
+  }
+  .first-column .first_title,
+  .second-column .second_title,
+  .third-column .third_title {
+    font-size: 18px;
+  }
+
+  .first-column2 .first_content,
+  .second-column2 .second_content,
+  .third-column2 .third_content,
+  .second_effect_content .second_effect_content_main,
+  .second_effect_content .second_effect_content_sub {
+    font-size: 15px;
+  }
+
+  .second_effect .second_effect_content {
+    width: 300px;
+  }
+
+  .second_effect .second_effect-column .second_effect_title {
+    font-size: 18px;
+  }
+  .second_effect .second_effect-column .second_effect_button input {
+    height: 20px;
+    width: 20px;
+
+    font-size: 16px;
+  }
+
+  .rule_frame .rule_sub-title {
+    font-size: 24px;
+  }
+  .rule_declar .rule_declar_title {
+    font-size: 20px;
+  }
+  .rule_declar .rule_declar_content,
+  .rule_frame .rule_content,
+  .rule_frame .rule_act,
+  .rule_frame .rule_act_content {
+    font-size: 18px;
   }
 }

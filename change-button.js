@@ -30,6 +30,15 @@ var Body = {
   setRuleFrameBackgroundColor: function (color) {
     document.querySelector(".rule_frame").style.backgroundColor = color;
   },
+
+  setUsesContentBackgroundColor: function (color) {
+    document.querySelector(".first_content").style.backgroundColor = color;
+    document.querySelector(".second_content").style.backgroundColor = color;
+    document.querySelector(".third_content").style.backgroundColor = color;
+    document.querySelector(
+      ".second_effect_content"
+    ).style.backgroundColor = color;
+  },
 };
 
 function nightDayHandler(apple) {
@@ -82,6 +91,24 @@ function ruleNightDayHandler(apple) {
     Body.setFooterBackgroundColor("#f4f5f7");
     Body.setContentFrameBackgroundColor("#f4f5f7");
     Body.setRuleFrameBackgroundColor("white");
+    apple.value = "N";
+  }
+}
+
+function usesNightDayHandler(apple) {
+  if (apple.value === "N") {
+    Body.setColor("white");
+    Body.setBackgroundColor("#1E1F21");
+    Body.setFooterBackgroundColor("#292A2D");
+    Body.setContentFrameBackgroundColor("#292A2D");
+    Body.setUsesContentBackgroundColor("#1E1F21");
+    apple.value = "D";
+  } else {
+    Body.setColor("#1E1F21");
+    Body.setBackgroundColor("white");
+    Body.setFooterBackgroundColor("#f4f5f7");
+    Body.setContentFrameBackgroundColor("#f4f5f7");
+    Body.setUsesContentBackgroundColor("white");
     apple.value = "N";
   }
 }

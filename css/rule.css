@@ -1,8 +1,8 @@
 .rule_title {
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .rule_list {
@@ -55,13 +55,13 @@
   color: #b38426;
 }
 .rule_declar_title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
 }
 
 .rule_declar_content {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -69,27 +69,26 @@
 .rule_content {
   line-height: 24px;
   margin: 0px 100px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .rule_act {
   color: #b38426;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   margin: 40px 0px 20px 0px;
 }
 
 .rule_act_content {
   line-height: 24px;
-
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .rule_sub-title {
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   margin-bottom: 20px;
   font-style: italic;

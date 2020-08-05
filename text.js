@@ -58,7 +58,7 @@ const superClick = {
   },
   text9: function () {
     textContent.innerHTML =
-      "나는 어떤 어려움보다도 크다! 나는 어떤 문제도 처리할 수 있다!`";
+      "나는 어떤 어려움보다도 크다! 나는 어떤 문제도 처리할 수 있다!";
     subTitle.innerHTML = "백만장자 시크릿9";
   },
   text10: function () {
