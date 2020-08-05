@@ -26,6 +26,10 @@ var Body = {
     document.querySelector(".review1").style.backgroundColor = color;
     document.querySelector(".review2").style.backgroundColor = color;
   },
+
+  setRuleFrameBackgroundColor: function (color) {
+    document.querySelector(".rule_frame").style.backgroundColor = color;
+  },
 };
 
 function nightDayHandler(apple) {
@@ -60,6 +64,24 @@ function introNightDayHandler(apple) {
     Body.setFooterBackgroundColor("#f4f5f7");
     Body.setContentFrameBackgroundColor("#f4f5f7");
     Body.setBackBackgroundColor("#f4f5f7");
+    apple.value = "N";
+  }
+}
+
+function ruleNightDayHandler(apple) {
+  if (apple.value === "N") {
+    Body.setColor("white");
+    Body.setBackgroundColor("#1E1F21");
+    Body.setFooterBackgroundColor("#292A2D");
+    Body.setContentFrameBackgroundColor("#292A2D");
+    Body.setRuleFrameBackgroundColor("#1E1F21");
+    apple.value = "D";
+  } else {
+    Body.setColor("#1E1F21");
+    Body.setBackgroundColor("white");
+    Body.setFooterBackgroundColor("#f4f5f7");
+    Body.setContentFrameBackgroundColor("#f4f5f7");
+    Body.setRuleFrameBackgroundColor("white");
     apple.value = "N";
   }
 }

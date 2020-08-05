@@ -90,10 +90,6 @@
     font-size: 20px;
   }
 
-  .about-book_partone,
-  .about-book_parttwo {
-  }
-
   .partone_content_up .partone_content_up_1,
   .partone_content_up .partone_content_up_2,
   .parttwo_content_up .parttwo_content_up_1,
@@ -119,5 +115,18 @@
   .about-book_partone .partone_content_icon,
   .about-book_parttwo .parttwo_content_icon {
     display: none;
+  }
+
+  .content-frame .rule_title {
+    font-size: 20px;
+  }
+  .content-frame .rule_item {
+    margin: 5px 5px;
+  }
+  .content-frame .rule_frame {
+    width: 320px;
+  }
+  .content-frame .rule_content {
+    margin: 0px 20px;
   }
 }

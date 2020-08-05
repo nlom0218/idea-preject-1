@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body id="body">
     <header class="main">
       <a href="index.html"><h1 class="main_title">백만장자의 시크릿</h1></a>
       <h2 class="main_sub-title">
@@ -26,6 +26,74 @@
         <a href="rule.html"><li class="item">시크릿</li> </a>
       </ul>
     </nav>
+    <div class="rule content-frame">
+      <div class="rule_title">백만장자의 17가지 시크릿</div>
+      <ul class="rule_list">
+        <li class="rule_item">
+          <input type="button" value="1" class="text1" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="2" class="text2" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="3" class="text3" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="4" class="text4" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="5" class="text5" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="6" class="text6" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="7" class="text7" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="8" class="text8" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="9" class="text9" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="10" class="text10" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="11" class="text11" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="12" class="text12" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="13" class="text13" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="14" class="text14" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="15" class="text15" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="16" class="text16" />
+        </li>
+        <li class="rule_item">
+          <input type="button" value="17" class="text17" />
+        </li>
+      </ul>
+      <div class="rule_frame">
+        <div class="rule_sub-title"></div>
+        <div class="rule_declar">
+          <div class="rule_declar_title">선언</div>
+          <div class="rule_declar_content">가슴에 손을 얹고 말하자</div>
+        </div>
+        <div class="rule_content"></div>
+        <div class="rule_act">
+          머리에 손을 대고 말하자
+        </div>
+        <div class="rule_act_content">나는 백만장자 마인드를 가졌다!</div>
+      </div>
+    </div>
     <footer id="footer">
       <div class="footer-box">
         <div class="footer-left">
@@ -57,5 +125,22 @@
         </div>
       </div>
     </footer>
+    <div class="button">
+      <input
+        type="button"
+        value="N"
+        onclick="ruleNightDayHandler(this)"
+        class="change-button"
+      />
+      <a href="#body"
+        ><div class="up-button"><i class="fas fa-angle-up"></i></div
+      ></a>
+      <a href="#footer"
+        ><div class="down-button">
+          <i class="fas fa-angle-down"></i></div
+      ></a>
+    </div>
+    <script src="change-button.js"></script>
+    <script src="text.js"></script>
   </body>
 </html>
