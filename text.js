@@ -20,79 +20,71 @@ const subTitle = document.querySelector(".rule_sub-title");
 
 const superClick = {
   text1: function () {
-    textContent.innerHTML = "나의 경제적인 성공은 내가 만든다!";
+    textContent.innerHTML = `"나의 경제적인 성공은 내가 만든다!"`;
     subTitle.innerHTML = "백만장자 시크릿1";
   },
   text2: function () {
-    textContent.innerHTML = "내 목표는 백만장자가 되는 것이다!";
+    textContent.innerHTML = `"내 목표는 백만장자가 되는 것이다!"`;
     subTitle.innerHTML = "백만장자 시크릿2";
   },
   text3: function () {
-    textContent.innerHTML = "부자가 되기 위해 헌신하겠다!";
+    textContent.innerHTML = `"부자가 되기 위해 헌신하겠다!"`;
     subTitle.innerHTML = "백만장자 시크릿3";
   },
   text4: function () {
-    textContent.innerHTML =
-      "크게 생각하자! 수천, 수만 명에게 기여하는 사람이 되겠다!";
+    textContent.innerHTML = `"크게 생각하자! <br> 수천, 수만 명에게 기여하는 사람이 되겠다!"`;
     subTitle.innerHTML = "백만장자 시크릿4";
   },
   text5: function () {
-    textContent.innerHTML =
-      "장애물보다 기회에 집중하겠다. 준비하고, 발사하고, 조준하겠다!";
+    textContent.innerHTML = `"장애물보다 기회에 집중하겠다." <br> "준비하고, 발사하고, 조준하겠다!"`;
     subTitle.innerHTML = "백만장자 시크릿5";
   },
   text6: function () {
-    textContent.innerHTML =
-      "나는 부자들에게 감탄한다! 나는 부자들을 축복한다! 나는 부자들을 사랑한다! 나도 그런 부자가 될 것이다!";
+    textContent.innerHTML = `"나는 부자들에게 감탄한다!" <br> "나는 부자들을 축복한다!"<br> "나는 부자들을 사랑한다!"<br> "나도 그런 부자가 될 것이다!"`;
     subTitle.innerHTML = "백만장자 시크릿6";
   },
   text7: function () {
-    textContent.innerHTML =
-      "성공한 부자들을 본받겠다. 성공한 부자들과 어울리겠다. 그들이 할 수 있다면 나도 할 수 있다!";
+    textContent.innerHTML = `"성공한 부자들을 본받겠다." <br> "성공한 부자들과 어울리겠다." <br> "그들이 할 수 있다면 나도 할 수 있다!"`;
     subTitle.innerHTML = "백만장자 시크릿7";
   },
   text8: function () {
-    textContent.innerHTML =
-      "정열적으로 열렬하게 나의 가치를 다른 사람들에게 알리겠다.";
+    textContent.innerHTML = "정열적으로 열렬하게 <br> 나의 가치를 다른 사람들에게 알리겠다."``;
     subTitle.innerHTML = "백만장자 시크릿8";
   },
   text9: function () {
-    textContent.innerHTML =
-      "나는 어떤 어려움보다도 크다! 나는 어떤 문제도 처리할 수 있다!";
+    textContent.innerHTML = `"나는 어떤 어려움보다도 크다!" <br>"나는 어떤 문제도 처리할 수 있다!"`;
     subTitle.innerHTML = "백만장자 시크릿9";
   },
   text10: function () {
-    textContent.innerHTML =
-      "나는 잘 받는 사람이다. 나는 인생에 들어오는 어마어마한 돈을 얼마든지 받아들일 것이다.";
+    textContent.innerHTML = `"나는 잘 받는 사람이다. 나는 인생에 들어오는 어마어마한 돈을 얼마든지 받아들일 것이다."`;
     subTitle.innerHTML = "백만장자 시크릿10";
   },
   text11: function () {
-    textContent.innerHTML = "내가 일한 경과로 보상받겠다.";
+    textContent.innerHTML = `"내가 일한 결과로 보상받겠다."`;
     subTitle.innerHTML = "백만장자 시크릿11";
   },
   text12: function () {
-    textContent.innerHTML = "나는 '둘 다' 생각하겠다.";
+    textContent.innerHTML = `"나는 '둘 다' 생각하겠다."`;
     subTitle.innerHTML = "백만장자 시크릿12";
   },
   text13: function () {
-    textContent.innerHTML = "나는 순자산을 늘리는 데 집중하겠다!";
+    textContent.innerHTML = `"나는 순자산을 늘리는 데 집중하겠다!"`;
     subTitle.innerHTML = "백만장자 시크릿13";
   },
   text14: function () {
-    textContent.innerHTML = "나는 돈 관리를 잘한다.";
+    textContent.innerHTML = `"나는 돈 관리를 잘한다."`;
     subTitle.innerHTML = "백만장자 시크릿14";
   },
   text15: function () {
-    textContent.innerHTML = "내 돈은 날 위해 일한다. 더 많은 돈을 벌어다준다.";
+    textContent.innerHTML = `"내 돈은 날 위해 일한다. 더 많은 돈을 벌어다준다."`;
     subTitle.innerHTML = "백만장자 시크릿15";
   },
   text16: function () {
-    textContent.innerHTML =
-      "두려워도 행동하겠다. 의심스로워도 행동하겠다. 불안해도 행동하겠다. 불편해도 행동하겠다. 힘들어도 행동하겠다. 하기 싫어도 행동하겠다.";
+    textContent.innerHTML = `"계속 배우고 성장하겠다."`;
     subTitle.innerHTML = "백만장자 시크릿16";
   },
   text17: function () {
-    textContent.innerHTML = "나의 경제적인 성공은 내가 만든다!";
+    textContent.innerHTML = `"두려워도 행동하겠다." <br> "의심스로워도 행동하겠다." <br> "불안해도 행동하겠다." <br> "불편해도 행동하겠다." <br> "힘들어도 행동하겠다." <br> "하기 싫어도 행동하겠다."`;
     subTitle.innerHTML = "백만장자 시크릿17";
   },
 };
