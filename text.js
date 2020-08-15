@@ -48,7 +48,7 @@ const superClick = {
     subTitle.innerHTML = "백만장자 시크릿7";
   },
   text8: function () {
-    textContent.innerHTML = "정열적으로 열렬하게 <br> 나의 가치를 다른 사람들에게 알리겠다."``;
+    textContent.innerHTML = `"정열적으로 열렬하게 <br> 나의 가치를 다른 사람들에게 알리겠다."`;
     subTitle.innerHTML = "백만장자 시크릿8";
   },
   text9: function () {
